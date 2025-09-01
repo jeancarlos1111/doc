@@ -1,8 +1,7 @@
 # Análisis: Implementación de Múltiples Transacciones en PostRecharge y PostBuy
 
 **Autores:**
-- **Jean Zamora** - Desarrollador Backend
-- **Claude Sonnet 4** - Asistente de IA
+- **Jean Zamora** - Desarrollador Backend (Si lo sueñas lo programo)
 
 **Fecha de Creación:** Agosto 2025
 
@@ -79,19 +78,19 @@ Este documento analiza la viabilidad y implicaciones de modificar las funciones 
       {
         "id": "uuid-1",
         "amount": 100.00,
-        "transaction_date": "02/01/2006 15:04:05",
+        "transaction_date": "1703123457",
         "status": "completed"
       },
       {
         "id": "uuid-2",
         "amount": 50.00,
-        "transaction_date": "02/01/2006 15:04:05",
+        "transaction_date": "1703123457",
         "status": "completed"
       },
       {
         "id": "uuid-3",
         "amount": 75.25,
-        "transaction_date": "02/01/2006 15:04:05",
+        "transaction_date": "1703123457",
         "status": "completed"
       }
     ]
@@ -112,7 +111,7 @@ Este documento analiza la viabilidad y implicaciones de modificar las funciones 
       "idUsuarioApp": "USER123",
       "montoViaje": 15.50,
       "fechaHoraCompra": "1703123456",
-      "qrExpiracion": "2024-12-31T23:59:59Z",
+      "qrExpiracion": "1703123457",
       "tipoBoleto": "normal",
       "idEstacionUnidad": "EST001"
     }
@@ -129,7 +128,7 @@ Este documento analiza la viabilidad y implicaciones de modificar las funciones 
       "idUsuarioApp": "USER123",
       "montoViaje": 15.50,
       "fechaHoraCompra": "1703123456",
-      "qrExpiracion": "2024-12-31T23:59:59Z",
+      "qrExpiracion": "1703123457",
       "tipoBoleto": "normal",
       "idEstacionUnidad": "EST001"
     },
@@ -138,7 +137,7 @@ Este documento analiza la viabilidad y implicaciones de modificar las funciones 
       "idUsuarioApp": "USER123",
       "montoViaje": 12.00,
       "fechaHoraCompra": "1703123457",
-      "qrExpiracion": "2024-12-31T23:59:59Z",
+      "qrExpiracion": "1703123457",
       "tipoBoleto": "reducido",
       "idEstacionUnidad": "EST002"
     }
@@ -162,22 +161,22 @@ Este documento analiza la viabilidad y implicaciones de modificar las funciones 
         "id": "uuid-1",
         "boleto_info": {
           "boleto_id": "B001",
-          "qr_expiracion": "2024-12-31T23:59:59Z",
+          "qr_expiracion": "1703123457",
           "tipo_boleto": "normal"
         },
         "amount": 15.50,
-        "transaction_date": "02/01/2006 15:04:05",
+        "transaction_date": "1703123457",
         "status": "completed"
       },
       {
         "id": "uuid-2",
         "boleto_info": {
           "boleto_id": "B002",
-          "qr_expiracion": "2024-12-31T23:59:59Z",
+          "qr_expiracion": "1703123457",
           "tipo_boleto": "reducido"
         },
         "amount": 12.00,
-        "transaction_date": "02/01/2006 15:04:05",
+        "transaction_date": "1703123457",
         "status": "completed"
       }
     ]
